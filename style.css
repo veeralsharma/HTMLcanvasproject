@@ -105,6 +105,13 @@ margin-top: 0;
         max-width: 500px;
     }
 
+    .services-con{
+      max-width: 100% !important;
+      margin-left: 0 !important;
+      margin-top: 0 !important;
+      height: 100% !important;
+    }
+
     .absout{
       position: relative;
     }
