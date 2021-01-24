@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{font-family:sans-serif;
+margin-top: 0;
+ margin-left: 0;
+ cursor:url('images/newcursor.png'),pointer;
+  }
+
+  body{
+      background-color: #F3F3F3;
+  }
+
+
+     /* -------------------------navbar--------- */
+
+     .navbar ul li a{
+         color:black;
+         font-weight:700;
+         font-size: large;
+         opacity: 100;
+         
+         
+     }
+
+
+     .content-wrapper{
+         max-width: 50%;
+         height: 300px;
+         margin-left: 25%;
+         margin-top: 200px
+     }
+
+     .content-wrapper h1{
+         text-align: center;
+         font-family: 'Comfortaa', cursive;
+         font-weight: bold;
+         font-size: 5rem;
+
+     }
+     .content-wrapper span{
+         text-align: center;
+     }
+     .content-wrapper h2{
+         font-size: 1.5rem;
+         text-align: center;
+         opacity: 0.6;
+         margin-top: 1.25rem;
+     }
+
+    
+
+     /* content typing */
+   
+      .container p {
+          font-family: inherit;
+         font-size: 1.5rem;
+        padding: 0.5rem;
+        font-weight: 500;
+        letter-spacing: 0.1rem;
+        text-align: center;
+        overflow: hidden;
+        color: inherit;
+        opacity: 70;
+      }
+      .container p span.typed-text {
+        font-weight: normal;
+        color:black;
+        font-size: 1.5rem;
+        font-weight: bold;
+        opacity: 100;
+      }
+      .container p span.cursor {
+        display: inline-block;
+        background-color: #ccc;
+        margin-left: 0.1rem;
+        width: 3px;
+        animation: blink 1s infinite;
+      }
+      .container p span.cursor.typing {
+        animation: none;
+      }
+      @keyframes blink {
+        0%  { background-color: #ccc; }
+        49% { background-color: #ccc; }
+        50% { background-color: transparent; }
+        99% { background-color: transparent; }
+        100%  { background-color: #ccc; }
+      }
+
+
+
+      /* services page */
+
+
+      .service-img{
+          width: 250px;
+          margin-top: 20px;
+      }
+
+    .col-md-6 p{
+        opacity: 0.5;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+        max-width: 500px;
+    }
+
+    .absout{
+      position: relative;
+    }
+
+    .absin{
+      position: absolute;
+    }
